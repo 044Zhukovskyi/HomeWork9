@@ -1,0 +1,39 @@
+@import url('reset.css');
+
+.table{
+  margin: 40px auto;
+}
+table, td, tr{
+	border: 2px solid #000;
+  border-color: red;
+}
+
+.table td{ 
+  width: 80px;
+  height: 70px;
+}
+
+.grey{
+  background: gray;
+}
+
+.hacki{
+  background: rgb(77, 101, 32);
+}
+
+.green{
+  background: greenyellow;
+}
+  
+.darkGreen{
+  background: green;
+
+}
+
+.blue{
+  background: blue;
+}
+
+.yellow{
+  background: yellow;
+}

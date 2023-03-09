@@ -1,0 +1,243 @@
+@import url('reset.css');
+
+/* !GLOBAL STYLES */
+body {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+background: #F5F5F5;
+color: #161616;
+font-size: 18px;
+line-height: 30px;
+}
+
+.container {
+	max-width: 1140px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 62px;
+	line-height: 67px;
+	padding-top: 178px;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 34px;
+	text-align: center;
+}
+
+/* header */
+.header{
+	background: #81A36B;
+	padding: 20px 0;
+}
+.logoMenu{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu{
+	display: flex;
+	gap: 90px;
+}
+
+.menu a{
+	text-decoration: none;
+	color: #161616;
+}
+
+
+/* home page */
+
+.homePage{
+	display: flex;
+	margin: 0 -15px;
+	flex-wrap: wrap;
+}
+
+.homePageFlex{
+	padding: 0 15px;
+	width: 50%;
+}
+
+.button {
+	margin-top: 40px;
+	margin-right: 65px;
+	width: 190px;
+	height: 60px;
+	background: #81A36B;
+	font-size: 18px;
+	line-height: 21px;
+	border: 0px;
+	padding: 0px;
+}
+
+
+.homePageFlex a{
+	padding: 20px 16px;
+	border: 1px solid #81A36B;
+	text-decoration: none;
+	color: #161616;
+
+}
+
+.homePage section:last-child{
+	margin: 0 25%;
+	text-align: center;
+}
+
+.homePageFlex h2{
+	padding-top: 120px;
+}
+
+.homePageFlex p {
+	padding-top: 60px;
+}
+
+
+
+
+
+/* *TODO: PRICE */
+.advantages{
+	padding-top: 120px;
+}
+
+.price {
+	background: #81A36B;
+	padding: 80px 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.price-box {
+
+
+	display: flex;
+	justify-content: space-between;	
+	text-align: center;
+	gap: 45px;
+}
+
+.price-box p{
+	margin-top: 20px;
+}
+
+/* HHW */
+
+.HWW{
+	display: flex;
+	margin: 0 -15px;
+	flex-wrap: wrap;
+	padding-top: 120px;
+	align-items: center;
+}
+
+.HWWflex{
+	padding: 0 15px;
+	width: 50%;
+}
+
+.HWWflex p{
+	padding-top: 60px;
+}
+
+.ourWorksHead{
+	text-align: center;
+	margin-top: 120px;
+}
+
+.ourWorks1{
+	padding-top: 80px;
+	padding-bottom: 120px;
+}
+.ourWorks1{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
+	padding-top: 80px;
+	padding-bottom: 120px;
+}
+.ourWorksFlex{
+	text-align: center;
+	background: #81A36B;
+	flex: 1 1 30%;
+	width: 350px;
+	height: 519px;
+	
+
+}
+.imgAmelia{
+  display: block;
+ width: 320px;
+height: 402px; 
+margin: 15px 15px 23px 15px;
+
+}
+.imgAmelia img{
+	width: 100%;
+	height: 100%;
+	object-fit:contain;
+}
+
+
+.ourWorksFlex p{
+	padding-bottom: 40px;
+}
+
+/* !FOOTER */
+.footer {
+	background: #81A36B;
+	padding: 60px 0;
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.flex-container h3 {
+	font-size: 24px;
+	line-height: 39px;
+	margin-bottom: 40px;
+}
+
+.footer-contact a {
+	color: #161616;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.footer-contact ul > li + li {
+	margin-top: 20px;
+}
+
+ .footer-social{
+	display: flex;
+	flex-direction: column;
+}
+.footer-social ul{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+
+}
+
+.footer-year {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+}
