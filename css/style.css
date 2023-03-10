@@ -250,3 +250,25 @@ flex: 1 1 33%;
 .footer-logo{
 	padding-left: 130px;
 }
+/* 
+.hidden{
+	width: 0;
+	height: 0;
+	position: absolute;
+	z-index: -1;
+} */
+.icon{
+	width: 40px;
+	height: 40px ;
+	fill:  #161616;
+}
+.iconInsta:hover{
+	fill: palevioletred
+}
+.iconTelegram:hover{
+	fill: rgb(1, 147, 251);
+}
+
+.iconViber:hover{
+	fill: purple
+}
