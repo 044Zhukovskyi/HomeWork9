@@ -156,7 +156,6 @@ padding-top: 50px;
 
 .news{
 	display: flex;
-	justify-content: space-between;
 	gap: 30px;
 	padding-top: 80px;
 	padding-bottom: 120px;
